@@ -38,8 +38,4 @@ public class RandomStringUtils extends
 		return rst.toString();
 	}
 
-	public final static void main(String args[]) {
-		System.out.println(RandomStringUtils.randomNumeric(10));
-//		System.out.println(RandomStringUtils.randomAscii(123));
-	}
 }

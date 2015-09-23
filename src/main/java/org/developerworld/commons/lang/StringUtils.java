@@ -279,27 +279,4 @@ public class StringUtils extends org.apache.commons.lang.StringUtils {
 		return rst.toString();
 	}
 
-	public final static void main(String args[])
-			throws UnsupportedEncodingException {
-		// String url = "http://localhost/pwa/d.jsp";
-		// String exp = "*/pwa/*";
-		// System.out.println(wildcardCapture(exp, url));
-		// String[] charsets = new String[] { null, "GBK", "GB2312", "UTF-8",
-		// "ISO-8859-1" };
-		// for (String charetA : charsets) {
-		// for (String charetB : charsets) {
-		// System.out.println(charetA + "->" + charetB);
-		// System.out.println(transcode("你好", charetA, charetB));
-		// }
-		// }
-
-//		String expression = "a:b:1:2";
-//		String text = "a:b:1:?";
-//		System.out.println(wildcardCapture(expression, text));
-//		System.out.println(wildcardCapture(text, expression));
-		
-		System.out.println(underlingToCamel("_asd+f_safd_sad"));
-		System.out.println(camelToUnderling("sdfAdsfAsfd_vasdfFAS"));
-	}
-
 }

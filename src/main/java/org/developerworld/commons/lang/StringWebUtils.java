@@ -216,28 +216,4 @@ public class StringWebUtils {
 		return rst;
 	}
 
-	public final static void main(String args[]) throws IOException {
-		System.out.println(getWebRootPath());
-		System.out
-				.println(getUrlDomain("http://www.ifitclub.com.cn:900/index.html"));
-		System.out
-				.println(getUrlPort("http://www.ifitclub.com.cn:900/index.html"));
-		System.out
-				.println(getUrlProtocol("http://www.ifitclub.com.cn:900/index.html"));
-		System.out
-				.println(getUrlDirectory("http://www.google.com/a/b/index.jsp?a=123&a=/asf/adf"));
-		System.out.println(getWithoutDomainUrl("index.jsp"));
-		System.out
-				.println(getWithoutQueryStringUrl("http://www.google.com/ab/index.jsp?q=12312&q=aaa"));
-		String url = "http://test.com/index.jsp?a=1&b=2&c=3&a=ABC";
-		Map<String, String[]> p = getUrlQueryParamsMap(url);
-		Iterator<Entry<String, String[]>> i = p.entrySet().iterator();
-		while (i.hasNext()) {
-			Entry<String, String[]> e = i.next();
-			String temp = e.getKey() + ":";
-			for (String tmp : e.getValue())
-				temp += tmp + ",";
-			System.out.println(temp);
-		}
-	}
 }

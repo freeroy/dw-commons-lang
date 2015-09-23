@@ -145,13 +145,4 @@ public class DateUtils extends org.apache.commons.lang.time.DateUtils {
 	public static String formatDatetime(Date date) {
 		return datetimeFormat.format(date);
 	}
-
-	public static void main(String args[]) throws Exception {
-		Date date = new Date();
-		System.out.println(formatDate(date));
-
-		System.out.println(formatTime(date));
-
-		System.out.println(formatDatetime(date));
-	}
 }
