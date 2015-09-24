@@ -2,10 +2,8 @@ package org.developerworld.commons.lang;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 
 /**
  * 一般web常用工具类
