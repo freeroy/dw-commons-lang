@@ -10,7 +10,7 @@
 	<artifactId>dw-commons-lang</artifactId>
 	<packaging>jar</packaging>
 	<name>commons-lang</name>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<description>常见操作函数包，参考apache commons lang</description>
 	
 	<!-- scm配置 -->
